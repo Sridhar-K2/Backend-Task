@@ -13,7 +13,7 @@ dotenv.config({ path: "./config/.env" });
 
 app.use(
   cors({
-   origin:"https://deluxe-crumble-9c0a0e.netlify.app/",
+   origin:"https://deluxe-crumble-9c0a0e.netlify.app",
     methods: ["GET", "PUT", "DELETE", "POST"],
     credentials: true,
   })
